@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66C593CE290658C10094ECC7 /* PrimeNumberCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593CD290658C10094ECC7 /* PrimeNumberCalculatorApp.swift */; };
+		66C593D2290658C20094ECC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C593D1290658C20094ECC7 /* Assets.xcassets */; };
+		66C593D6290658C20094ECC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C593D5290658C20094ECC7 /* Preview Assets.xcassets */; };
+		66C593E2290659530094ECC7 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593E1290659530094ECC7 /* LottieView.swift */; };
+		66C593E4290659700094ECC7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593E3290659700094ECC7 /* SplashScreenView.swift */; };
+		66C593E629065A080094ECC7 /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 66C593E529065A080094ECC7 /* splash.json */; };
+		66C593E829065C0D0094ECC7 /* ColoredGroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593E729065C0D0094ECC7 /* ColoredGroupBox.swift */; };
+		66C593EA29065C1A0094ECC7 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593E929065C1A0094ECC7 /* CalculatorView.swift */; };
+		66C593EC290660070094ECC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593EB290660070094ECC7 /* AppDelegate.swift */; };
+		66C593EE290661520094ECC7 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593ED290661520094ECC7 /* Notifications.swift */; };
+		66C593F0290663B00094ECC7 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593EF290663B00094ECC7 /* MainMenuView.swift */; };
+		66C593F2290663E20094ECC7 /* AnagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593F1290663E20094ECC7 /* AnagramView.swift */; };
+		66C593F429066BE70094ECC7 /* PalindromeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C593F329066BE70094ECC7 /* PalindromeView.swift */; };
+		DA005C1943658AC61AD951F6 /* Pods_PrimeNumberCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D5BE55A2CDA366F93BD076 /* Pods_PrimeNumberCalculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66C593CA290658C10094ECC7 /* PrimeNumberCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeNumberCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C593CD290658C10094ECC7 /* PrimeNumberCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberCalculatorApp.swift; sourceTree = "<group>"; };
+		66C593D1290658C20094ECC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C593D3290658C20094ECC7 /* PrimeNumberCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrimeNumberCalculator.entitlements; sourceTree = "<group>"; };
+		66C593D5290658C20094ECC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66C593E1290659530094ECC7 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		66C593E3290659700094ECC7 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		66C593E529065A080094ECC7 /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash.json; sourceTree = "<group>"; };
+		66C593E729065C0D0094ECC7 /* ColoredGroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredGroupBox.swift; sourceTree = "<group>"; };
+		66C593E929065C1A0094ECC7 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		66C593EB290660070094ECC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66C593ED290661520094ECC7 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		66C593EF290663B00094ECC7 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		66C593F1290663E20094ECC7 /* AnagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramView.swift; sourceTree = "<group>"; };
+		66C593F329066BE70094ECC7 /* PalindromeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeView.swift; sourceTree = "<group>"; };
+		91D5BE55A2CDA366F93BD076 /* Pods_PrimeNumberCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimeNumberCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44361D7F1AB7EA3A07837BD /* Pods-PrimeNumberCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeNumberCalculator.release.xcconfig"; path = "Target Support Files/Pods-PrimeNumberCalculator/Pods-PrimeNumberCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		EFC0F73F10978878E5F86AEC /* Pods-PrimeNumberCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeNumberCalculator.debug.xcconfig"; path = "Target Support Files/Pods-PrimeNumberCalculator/Pods-PrimeNumberCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C593C7290658C10094ECC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA005C1943658AC61AD951F6 /* Pods_PrimeNumberCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E49AE3C12702FEB77092AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFC0F73F10978878E5F86AEC /* Pods-PrimeNumberCalculator.debug.xcconfig */,
+				D44361D7F1AB7EA3A07837BD /* Pods-PrimeNumberCalculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66C593C1290658C10094ECC7 = {
+			isa = PBXGroup;
+			children = (
+				66C593CC290658C10094ECC7 /* PrimeNumberCalculator */,
+				66C593CB290658C10094ECC7 /* Products */,
+				07E49AE3C12702FEB77092AA /* Pods */,
+				D770FF09B9E8C43534F1DC8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66C593CB290658C10094ECC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C593CA290658C10094ECC7 /* PrimeNumberCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C593CC290658C10094ECC7 /* PrimeNumberCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				66C593E0290659480094ECC7 /* Animations */,
+				66C593DF290659430094ECC7 /* Extensions */,
+				66C593DE2906593B0094ECC7 /* Views */,
+				66C593DD290659350094ECC7 /* Models */,
+				66C593DC290659310094ECC7 /* Data */,
+				66C593D1290658C20094ECC7 /* Assets.xcassets */,
+				66C593D3290658C20094ECC7 /* PrimeNumberCalculator.entitlements */,
+				66C593D4290658C20094ECC7 /* Preview Content */,
+			);
+			path = PrimeNumberCalculator;
+			sourceTree = "<group>";
+		};
+		66C593D4290658C20094ECC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66C593D5290658C20094ECC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66C593DC290659310094ECC7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		66C593DD290659350094ECC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66C593DE2906593B0094ECC7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66C593CD290658C10094ECC7 /* PrimeNumberCalculatorApp.swift */,
+				66C593E929065C1A0094ECC7 /* CalculatorView.swift */,
+				66C593EF290663B00094ECC7 /* MainMenuView.swift */,
+				66C593F1290663E20094ECC7 /* AnagramView.swift */,
+				66C593F329066BE70094ECC7 /* PalindromeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66C593DF290659430094ECC7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66C593E1290659530094ECC7 /* LottieView.swift */,
+				66C593E3290659700094ECC7 /* SplashScreenView.swift */,
+				66C593E729065C0D0094ECC7 /* ColoredGroupBox.swift */,
+				66C593EB290660070094ECC7 /* AppDelegate.swift */,
+				66C593ED290661520094ECC7 /* Notifications.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66C593E0290659480094ECC7 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				66C593E529065A080094ECC7 /* splash.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		D770FF09B9E8C43534F1DC8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91D5BE55A2CDA366F93BD076 /* Pods_PrimeNumberCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C593C9290658C10094ECC7 /* PrimeNumberCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C593D9290658C20094ECC7 /* Build configuration list for PBXNativeTarget "PrimeNumberCalculator" */;
+			buildPhases = (
+				A6E5A29CED106C27BC2CBD36 /* [CP] Check Pods Manifest.lock */,
+				66C593C6290658C10094ECC7 /* Sources */,
+				66C593C7290658C10094ECC7 /* Frameworks */,
+				66C593C8290658C10094ECC7 /* Resources */,
+				5DB7FFB8772FFB5781CFB24E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeNumberCalculator;
+			productName = PrimeNumberCalculator;
+			productReference = 66C593CA290658C10094ECC7 /* PrimeNumberCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C593C2290658C10094ECC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					66C593C9290658C10094ECC7 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 66C593C5290658C10094ECC7 /* Build configuration list for PBXProject "PrimeNumberCalculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C593C1290658C10094ECC7;
+			productRefGroup = 66C593CB290658C10094ECC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C593C9290658C10094ECC7 /* PrimeNumberCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C593C8290658C10094ECC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C593E629065A080094ECC7 /* splash.json in Resources */,
+				66C593D6290658C20094ECC7 /* Preview Assets.xcassets in Resources */,
+				66C593D2290658C20094ECC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DB7FFB8772FFB5781CFB24E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrimeNumberCalculator/Pods-PrimeNumberCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrimeNumberCalculator/Pods-PrimeNumberCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrimeNumberCalculator/Pods-PrimeNumberCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E5A29CED106C27BC2CBD36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrimeNumberCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C593C6290658C10094ECC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C593EC290660070094ECC7 /* AppDelegate.swift in Sources */,
+				66C593F2290663E20094ECC7 /* AnagramView.swift in Sources */,
+				66C593EE290661520094ECC7 /* Notifications.swift in Sources */,
+				66C593F0290663B00094ECC7 /* MainMenuView.swift in Sources */,
+				66C593CE290658C10094ECC7 /* PrimeNumberCalculatorApp.swift in Sources */,
+				66C593E829065C0D0094ECC7 /* ColoredGroupBox.swift in Sources */,
+				66C593E2290659530094ECC7 /* LottieView.swift in Sources */,
+				66C593EA29065C1A0094ECC7 /* CalculatorView.swift in Sources */,
+				66C593E4290659700094ECC7 /* SplashScreenView.swift in Sources */,
+				66C593F429066BE70094ECC7 /* PalindromeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66C593D7290658C20094ECC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66C593D8290658C20094ECC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		66C593DA290658C20094ECC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC0F73F10978878E5F86AEC /* Pods-PrimeNumberCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PrimeNumberCalculator/PrimeNumberCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrimeNumberCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = A6CZ44C8GU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vanzylarno.PrimeNumberCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66C593DB290658C20094ECC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44361D7F1AB7EA3A07837BD /* Pods-PrimeNumberCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PrimeNumberCalculator/PrimeNumberCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrimeNumberCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = A6CZ44C8GU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vanzylarno.PrimeNumberCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C593C5290658C10094ECC7 /* Build configuration list for PBXProject "PrimeNumberCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C593D7290658C20094ECC7 /* Debug */,
+				66C593D8290658C20094ECC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C593D9290658C20094ECC7 /* Build configuration list for PBXNativeTarget "PrimeNumberCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C593DA290658C20094ECC7 /* Debug */,
+				66C593DB290658C20094ECC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C593C2290658C10094ECC7 /* Project object */;
+}
